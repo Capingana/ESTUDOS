@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  /* width: 100vw; */
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+.topo {
+  background-image: url("../img/hero-bg.png");
+  background-position: bottom center;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 800px;
+}
+/* header-page */
+.header {
+  /* background-color: #170d5a; */
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+  flex-wrap: wrap;
+}
+.header > h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-menu {
+  transition: 0.5s;
+}
+.navlist {
+  display: flex;
+  gap: 10px;
+}
+
+.navlist > .nav-item > .nav-link {
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.navlist > .nav-item > .nav-link:hover {
+  color: #42e8df;
+}
+
+.hamburguer {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburguer > .bars {
+  width: 30px;
+  background-color: #fff;
+  height: 2px;
+  margin: 5px 0;
+  transition: 0.5s;
+}
+.welcome img {
+  max-width: 100%;
+}
+.welcome {
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.crypto {
+  max-width: 600px;
+}
+.crypto h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 10px 0;
+}
+
+.crypto button {
+  padding: 20px 45px;
+  background-color: #42e8df;
+  color: #fff;
+  display: block;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+  text-align: center;
+}
+
+.crypto p {
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 10px 0px;
+}
+/* main */
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+main img {
+  max-width: 100%;
+}
+main > section.servicos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 900px;
+  margin: auto;
+}
+
+.servico-tittle {
+  text-align: center;
+  margin: 10px 20;
+  padding: 0 60px;
+}
+.servico-tittle h1 {
+  font-size: 2rem;
+}
+.servico-tittle h1 > strong {
+  color: #42e8df;
+}
+.servico-tittle p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.servico-currency {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.servico-currency > div > img {
+  max-width: 100px;
+}
+
+.servico-currency > div {
+  min-width: 400px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(226, 226, 226, 0.39);
+}
+
+#btnservices {
+  padding: 20px;
+  background-color: #42e8df;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+}
+.servico-currency p {
+  margin: 10px 0;
+  line-height: 25px;
+}
+.servico-currency a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+.servico-currency a:hover {
+  color: #42e8df;
+}
+
+button:hover {
+  background-color: #217c79;
+}
+
+#btnservices:hover {
+  background-color: #217c79;
+}
+
+/* sobre */
+.sobre {
+  background-color: #120851;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.sobre-tittle {
+  text-align: center;
+}
+.sobre-tittle h1 {
+  font-size: 2rem;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+.sobre-tittle h1 > strong {
+  color: #42e8df;
+}
+.sobre-tittle p {
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+
+.sobre-currency {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 40px;
+  gap: 20px;
+}
+.sobre-nos {
+  max-width: 600px;
+}
+.sobre-nos h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.sobre-nos p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+  line-height: 25px;
+}
+
+.sobre-nos button {
+  padding: 20px 45px;
+  background-color: #42e8df;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+
+.sobre-nos button:hover {
+  background-color: #217c79;
+}
+
+/* ================================ */
+.subir {
+  position: absolute;
+  margin-bottom: 20px;
+}
+.subir img {
+  background-color: #120851;
+  padding: 20px;
+  transform: translateY(7px) rotate(90deg);
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.why-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+.why-us > img {
+  max-width: 100px;
+  border-radius: 50%;
+  border: 6px solid #120851;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.why-us h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.why-us h1 > strong {
+  color: #42e8df;
+}
+.why-us p {
+  line-height: 25px;
+}
+#btnWhy {
+  padding: 20px 55px;
+  background-color: #42e8df;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+}
+
+#btnWhy:hover {
+  background-color: #217c79;
+}
+.equipa {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.equipa a img {
+  width: 20px;
+  height: 20px;
+}
+.equipa a {
+  display: inline-block;
+  margin: 10px;
+}
+.equipa-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+  text-align: center;
+}
+
+.card > img {
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px;
+  border: 10px solid #fff;
+}
+
+.equipa h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.card h1 {
+  margin: 20px 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #120851;
+  font-size: 1.3rem;
+}
+.card .cargo {
+  margin: 10px 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #120851;
+  font-size: 1.3rem;
+}
+
+.redes-sociais {
+  margin-top: 30px;
+}
+.redes-sociais a {
+  transition: 0.5s;
+}
+.redes-sociais a:hover {
+  transform: scale(2);
+}

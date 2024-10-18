@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Thiago" />
+    <meta name="description" content="Curso de HTML" />
+    <meta name="keywords" content="HTML, Curso legal" />
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Devs</title>
+
+   
+  </head>
+  <body>
+    <header id="topo">
+      <img src="./img/logo-lobo.png" alt="Lobo Logo" >
+      <h1>Tudo sobre os Lobos</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#lobo1">História </a></li>
+        <li><a href="#lobo2">Vídeos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article>
+        <!-- Seção sobre Lobos -->
+        <section class="lobo1" id="lobo1">
+          <div>
+            <p>
+              Os lobos são animais verdadeiramente extraordinários. Predadores
+              que se encontram no topo da cadeia alimentar, e que possuem
+              características muito interessantes.
+            </p>
+            <p>
+              Não há como não admirar um animal tão imponente, que já virou
+              temática de muitas histórias e lendas ao longo dos séculos, e que,
+              apesar da caça predatória, vem resistindo em seu espaço natural
+              como sendo um dos espécimes mais impressionantes de serem
+              observados e estudados por quem gosta, de verdade, da natureza.
+              Para mais detalhes clique
+              <a href="https://pt.wikipedia.org/wiki/Lobo" target="_blank"
+                >aqui</a
+              >
+            </p>
+          </div>
+          <div>
+            <img
+              alt="carregamento sem sucesso"
+              src="./img/lobos.jpg"
+              title="Lobos"
+              style="max-width: 320px;"
+            />
+          </div>
+        </section>
+        <section class="lobo2" id="lobo2">
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/hJlEEXUvqUc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div>
+            <p>
+              O lobo (também chamado de lobo-cinzento; nome científico: Canis
+              lupus) é uma espécie de mamífero canídeo do gênero Canis. É um
+              sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
+              cerca de 300 mil anos atrás.
+            </p>
+            <p>
+              Os lobos são capazes de percorrer longas distâncias com uma
+              velocidade média de 10 quilômetros por hora e são conhecidos por
+              atingir velocidades próximas a 65 quilômetros por hora durante uma
+              perseguição.
+            </p>
+            <p>
+              O lobo-cinzento (Canis lupus), o lobo-vermelho (Canis rufus), o
+              lobo-etíope (Canis simensis) e o lobo-dourado (Canis anthus) são
+              as únicas quatro espécies classificadas como lobos. Os demais
+              lobos correspondem a subespécies derivadas dessas quatro espécies.
+            </p>
+          </div>
+        </section>
+
+        <section class="lobo3" id="habilidades">
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/Rp_cL7E-qFI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div>
+            <h2>10 curiosidades sobre os lobos</h2>
+            <ol>
+              <li>Dentes afiados</li>
+              <li>Focinho um pouco mais estreito</li>
+              <li>Pouco sociáveis</li>
+              <li>Preparados para climas frios</li>
+              <li>Gostam de caçar</li>
+              <li>Possuem a estrutura hierárquica</li>
+              <li>Pesam de 30 a 80 kg</li>
+              <li>Vivem em grupos</li>
+              <li>Estão no topo da cadeia alimentar</li>
+              <li>Caminham mais de 20km diariamente;</li>
+            </ol>
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <section class="tabela">
+          <h2>Dados técnicos dos Lobos</h2>
+          <table id="tabela">
+            <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th>Habilidade</th>
+              <th>Tempo de Vida</th>
+            </tr>
+            <tr>
+              <td>Lobo Etíope</td>
+              <td>6 anos</td>
+              <td>Gostam de caçar</td>
+              <td>Vivem até 10 anos</td>
+            </tr>
+            <tr>
+              <td>Lobo Guará</td>
+              <td>10 anos</td>
+              <td>Gostam de dormir</td>
+              <td>Vivem até 7 anos</td>
+            </tr>
+            <tr>
+              <td>Lobo Russo</td>
+              <td>4 anos</td>
+              <td>Gostam de brincar</td>
+              <td>Vivem até 9 anos</td>
+            </tr>
+            <tr>
+              <td>Lobo Indiano</td>
+              <td>9 anos</td>
+              <td>Gostam de correr</td>
+              <td>Vivem até 12 anos</td>
+            </tr>
+          </table>
+        </section>
+        <section class="formulario" id="contato">
+          <form autocomplete="off">
+            <div class="campo-nome">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" />
+            </div>
+            <br />
+            <div class="campo-email">
+              <label for="email">Email:</label>
+              <input type="email" id="email" />
+            </div>
+            <br />
+            <div class="campo-mensagem">
+              <label for="mensagem">Digite aqui sua mensagem:</label>
+              <textarea id="mensagem"></textarea>
+            </div>
+            <div>
+              <p>O que você mais gosta de estudar?</p>
+              <input type="radio" id="html" name="linguagem" value="HTML" />
+              <label for="html">HTML</label>
+
+              <input type="radio" id="css" name="linguagem" value="CSS" />
+              <label for="css">CSS</label>
+
+              <input
+                type="radio"
+                id="javascript"
+                name="linguagem"
+                value="JAVASCRIPT"
+              />
+              <label for="javascript">JavaScript</label>
+            </div>
+            <br />
+            <div>
+              <button type="submit">Envie a sua mensagem</button>
+            </div>
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p><b>copyright © 2022</b> todos os direitos reservados</p>
+      <span><a href="#topo">Voltar ao Topo</a></span>
+    </footer>
+  </body>
+  <p></p>
+</html>

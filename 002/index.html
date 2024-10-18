@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Ca-Digital -Calculadora Responsiva</title>
+</head>
+
+<body>
+    <main>
+        <section class="section-calculate">
+            <div class="formCalculate">
+                <h1>Calculadora-IMC</h1>
+                <hr id="hr-cima">
+                <div class="formInput">
+                    <label for="peso">Peso em Kg</label>
+                    <input type="text" name="peso" id="peso" class="peso" placeholder="Kg">
+                </div>
+                <div class="formInput">
+                    <label for="altura">Altura em metros</label>
+                    <input type="text" name="altura" id="altura" class="altura" placeholder="m">
+                </div>
+                <div class="formInput">
+                    <input type="submit" value="Calcular" id="btnEnviar">
+                </div>
+                <hr class="linhas">
+                <div class="infos">
+                    <div class="result">
+                        <h1>00</h1>
+                        <p>Seu IMC</p>
+                    </div>
+                    <div class="information">
+                        <p>00</p>
+                    </div>
+                </div>
+                <hr class="linhas">
+                <div class="more-information">
+                    <a href="#">Mais informações sobre o IMC</a>
+                </div>
+            </div>
+            <div class="formCalculate-img">
+                <img src="./src/img/ilustration.svg" alt="">
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

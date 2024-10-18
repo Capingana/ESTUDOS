@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+  .hamburguer {
+    display: block;
+  }
+  .hamburguer.active > div:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .hamburguer.active > div:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburguer.active > div:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    width: 100%;
+    top: 108px;
+    left: -100%;
+    gap: 0;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .navlist {
+    align-items: center;
+    flex-direction: column;
+  }
+  .nav-item {
+    margin: 10px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+    background-color: #120851;
+  }
+  .crypto h1 {
+    font-size: 2rem;
+  }
+  .welcome {
+    flex-wrap: wrap;
+  }
+  .servico-currency {
+    flex-wrap: wrap;
+  }
+
+  .sobre-currency {
+    flex-wrap: wrap;
+  }
+  .equipa-cards {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .servico-currency {
+    flex-wrap: wrap;
+  }
+}
