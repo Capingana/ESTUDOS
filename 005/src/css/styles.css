@@ -272,6 +272,7 @@ button:hover {
   right: 0;
   bottom: 0;
   position: fixed;
+  border-radius: 50%;
 }
 
 .why-us {
